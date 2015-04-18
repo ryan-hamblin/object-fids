@@ -73,10 +73,30 @@ for(var key in me){
 	alert(me[key]);
 };
 
-
-
 //Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
 
 
+
+//NEXT PROBLEM
+
+//Create an Object called 'album' with 5 keys named different song titles that you make up, with the values being the length of each song. 
+
+
+var album = {};
+
+album.track1 = "Goose";
+album.track2 = "Bart";
+album.track3 = "Beef";
+album.track4 = "Mood";
+album.track5 = "Beer";
+
+
+//Now, loop through your album object alerting every song title individually.
+
+//Replace this with your code.
+
+for(var key in album){
+	alert(album[key]);
+}
 
 
