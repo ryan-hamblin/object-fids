@@ -35,3 +35,28 @@ alert(favoriteThings.person);
 alert(favoriteThings.book);
 
 //Now, alert your favorite person, then alert your favorite book.
+
+
+//Create an empty Object called backPack. Now, create a variable called 'item' and set it equal to firstPocket. Now, using bracket notation, add whatever 'item' represents as a property (or key) on the backPack object and set it's value equal to 'chapstick'. Now using dot notation add a key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
+
+var backpack = {};
+
+var item = "firstPocket";
+backpack[item];
+backpack[item] = 'chapstick';
+backpack.color = 'green';
+
+console.log(backpack);
+
+//After you do the above, alert your entire backPack object.
+
+
+
+
+
+//You probably noticed that it just alerted [Object Object]. Alerting to see the data in your Object doesn't work so well. Instead, console.log your whole backPack object and then check out the console.
+
+//Replace this with your code, then click 'Run'.
+
+
+
