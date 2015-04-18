@@ -50,13 +50,33 @@ console.log(backpack);
 
 //After you do the above, alert your entire backPack object.
 
-
-
-
-
 //You probably noticed that it just alerted [Object Object]. Alerting to see the data in your Object doesn't work so well. Instead, console.log your whole backPack object and then check out the console.
 
 //Replace this with your code, then click 'Run'.
+
+// NEXT PROBLEM 
+
+
+//Create another 'me' object with the following properties name, age, height, gender, married, eyeColor, hairColor. Fill those properties in with the appropriate values.
+
+var me = {};
+
+me.name = 'Ryan';
+me.age = '28';
+me.height = '6 \'1';
+me.gender = 'male';
+me.married = 'yes';
+me.eyeColor = 'blue';
+me.hairColor = 'redish brown';
+
+for(var key in me){
+	alert(me[key]);
+};
+
+
+
+//Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
+
 
 
 
