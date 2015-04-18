@@ -121,3 +121,33 @@ for(var key in states){
 		alert(key);
 	}
 };
+
+
+
+var user = {
+    name: 'Tyler McGinnis', 
+    email: null,
+    pwHash: 'U+Ldlngx2BYQk',
+    birthday: undefined,
+    username: 'tylermcginnis33',
+    age: 0
+}
+
+//Above you're given a user object. Loop through the user object checking to make sure that each value is truthy. If it's not truthy, remove it from the object. hint: 'delete'.
+
+for(var key in user){
+	if(!user[key]){
+		delete user[key];
+	}
+}
+
+
+//Once you get your truthy array, Change the remaining values in the array to be specific to you (name: 'your name', username: 'your username'), rather than my information.
+
+//Replace with Code
+
+
+
+//Now console.log your object and make sure it looks right.
+
+
