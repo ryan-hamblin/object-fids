@@ -84,11 +84,11 @@ for(var key in me){
 
 var album = {};
 
-album.track1 = "Goose";
-album.track2 = "Bart";
-album.track3 = "Beef";
-album.track4 = "Mood";
-album.track5 = "Beer";
+album.Goose = 2.5;
+album.Bart  = 5.6;
+album.Beef  = 4;
+album.Mood  = 12;
+album.Beer  = 55;
 
 
 //Now, loop through your album object alerting every song title individually.
@@ -96,7 +96,28 @@ album.track5 = "Beer";
 //Replace this with your code.
 
 for(var key in album){
-	alert(album[key]);
+	alert(key);
 }
 
+//NEXT PROBLEM
 
+
+//Create an object called states that has 5 US states as properties with the values being their population (doesn't have to be accurate). 
+
+var states = {};
+
+states.Utah = 4000000;
+states.California = 27000000;
+states.Vermont = 10000;
+states.Colordo = 11223344;
+states.Virginia = 12;
+states.Washington = 10000;
+
+
+//Now, loop through your states object and if the states population is greater than 30K, alert that state.
+
+for(var key in states){
+	if(states[key] >30000){
+		alert(key);
+	}
+};
